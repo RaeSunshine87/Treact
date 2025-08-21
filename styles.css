@@ -11,17 +11,20 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0px;
+    line-height: inherit;
+}
+
+element.style {
+}
+
 .full {
     min-height: 100vh;
     overflow: hidden;
     padding: 32px;
     font-family: Inter, system-ui;
     color: rgb(36 62 99);
-}
-
-body {
-    margin: 0px;
-    line-height: inherit;
 }
 
 nav {
