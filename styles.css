@@ -11,15 +11,32 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, span{
-    color: #1A202C;
-    text-align: center;
-    line-height: 1.25;
+.full {
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 32px;
+    font-family: Inter, system-ui;
+    color: rgb(36 62 99);
+}
+
+body {
+    margin: 0px;
+    line-height: inherit;
+}
+
+nav {
+    height: 44px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(36 62 99);
 }
 
 p {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 ul {
@@ -37,36 +54,26 @@ a {
 
 /* NAVIGATION BAR */
 
-nav {
-   height: 100px;
-   width: 100%;
-   max-width: 10000px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: rgb(36 62 99);
-}
-
 .logo {
     display: flex;
-    margin: 0 0 0 12px;
-    padding: 0 24px;
-    width: 100px;
-    justify-content: center;
-    align-items: center;
+    margin-right: 16px;
+    width: 40px;
 }
 
 .logo__Treact {
+    display: flex;
+    align-items: center;
     font-size: 24px;
-    margin: 0 24 0 0;
-    padding: 0 24px;
+    margin-left:0px;
     color: #243E63;
 }
 
+.logo__Treact:hover {
+    color: #7342d6;
+}
 
 .nav__link--list {
-    display: flex;
+    display: inline-block;
 }
 
 .nav__link--anchor {
