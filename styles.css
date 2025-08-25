@@ -7,13 +7,10 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
 }
 
-body {
-    margin: 0px;
-    line-height: inherit;
+html {
+    scroll-behavior: smooth;
 }
 
 element.style {
@@ -25,6 +22,10 @@ element.style {
     padding: 32px;
     font-family: Inter, system-ui;
     color: rgb(36 62 99);
+
+body {
+    margin: 0px;
+    line-height: inherit;
 }
 
 nav {
@@ -137,6 +138,24 @@ p {
 
 /* TWO COLUMN ONE */
 
+.twocolumnone__container {
+    width: calc(100% / 2)
+}
+
+.twocolumnone__row {
+    flex-direction: row;
+    box-align: center;
+    align-items: center;
+}
+
+.twocolumnone__row {
+    width: calc(100% / 2);
+    display: flex;
+    box-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .twocolumnone__heading {
     font-size: 36px;
     color: #1A202C;
@@ -145,4 +164,11 @@ p {
 .twocolumnone__path {
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+.twocolumnone--illustration__container {
+    width: 100%;
+    min-width: 0px;
+    max-width: 512px;
+    width: calc(100% / 2)
 }
