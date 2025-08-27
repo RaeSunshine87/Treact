@@ -14,8 +14,7 @@ html {
 element.style {
 }
 
-.full {
-    min-height: 100vh;
+.container {
     overflow: hidden;
     padding: 32px;
     font-family: Inter, system-ui;
