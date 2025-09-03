@@ -136,12 +136,19 @@ p {
 
 /* TWO COLUMN ONE */
 
+.container__a {
+    position: relative;
+}
+
 .twocolumnone__row {
-    flex-direction: column;
-    width: calc(100% / 2);
-    display: flex;
-    box-align: center;
+    flex-direction: row;
     align-items: center;
+}
+
+.twocolumnone__left-column {
+    width: 41.6667%;
+    max-width: none;
+    text-align: left;
 }
 
 .twocolumnone__heading {
@@ -149,6 +156,50 @@ p {
     font-weight: 700;
     line-height: 1.25;
     color: #1A202C;
+}
+
+.twocolumnone__para {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.action {
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+}
+
+input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 192px;
+}
+
+input {
+    width: 100%;
+    border-radius: 50px;
+    border-width: 2px;
+    padding-left: 32px;
+    font-weight: 500;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+button {
+    position: absolute;
+    margin-top: 0.8px;
+    margin-bottom: 0.8px;
+    width: 160px;
+    line-height: 1;
+}
+
+.gs {
+    background-color: #6415FF;
+    color: #F7FAFC;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 24px;
+    cursor: pointer;
 }
 
 .twocolumnone__path {
@@ -164,9 +215,21 @@ p {
 }
 
 .twocolumnone__illustration-one {
+    padding-right: 64px;
+}
+
+.twocolumnone__illustration-one { 
     margin-top: 18px;
     width: 100%;
     opacity: 0.5;
+}
+
+.twocolumnone__right-column {
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .twocolumnone__illustration-two {
@@ -174,9 +237,4 @@ p {
     min-width: 0px;
     max-width: 512px;
     width: calc(100% / 2)
-}
-
-.twocolumnone__para {
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
