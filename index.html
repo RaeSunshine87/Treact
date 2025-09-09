@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treact</title>
     <link rel="stylesheet" href="styles.css">
+    <script
+      src="https://kit.fontawesome.com/6487f0a3d4.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </head>
 <body>
@@ -307,7 +309,7 @@
 
     <section id="pricing">
         <div class="container">
-            <div class="row">
+            <div class="pricing__row">
                 <div class="section__tag">
                     PRICING
                 </div>
@@ -319,7 +321,7 @@
                 </p>
                 <div class="plans">
                     <div class="plan">
-                        <div class="plan__stripe"></div>
+                        <div class="plan__stripe" class="plan__stripe--one"></div>
                         <div class="plan__top">
                             <div class="plan__name">PERSONAL</div>
                             <div class="plan__price">$17.99</div>
@@ -373,6 +375,74 @@
                         </div>
                     </div>
                     <svg viewBox="0 0 600 600" class="plans__blob"></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" class="testimonials__img" alt="">
+                <div class="testimonials__description">
+                    <div class="section__tag">
+                        TESTIMONIALS
+                    </div>
+                    <h2 class="section__title">
+                        Our Clients <span class="purple">Love Us</span>
+                    </h2>
+                    <p class="section__para--t">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.
+                    </p>
+                    <div class="testimonial">
+                        <div class="testimonial__rating">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="testimonial__title">
+                            Amazing User Experience
+                        </h3>
+                        <p class="testimonial__para">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                        <div class="testimonial__bottom">
+                            <div class="testimonial__profile">
+                                <img src="./assets/photo-1494790108377-be9c29b29330.avif" class="testimonial__img" alt="">
+                                <div class="testimonial__details">
+                                    <div class="testimonial__name">
+                                        Charlotte Hale
+                                    </div>
+                                    <div class="testimonial__role">
+                                        Director, Delos Inc.
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial__buttons">
+                                    <button class="testimonial__button"></button>
+                                <div class="divider"></div>
+                                    <button class="testimonial__button"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="start">
+        <div class="container">
+            <div class="row">
+                <div class="start__container">
+                    <div class="start__row">
+                        <div class="start__title">
+                            Developers all over the world are happily using Treact.
+                        </div>
+                        <button class="start__button btn">Get Started</button>
+                        <button class="start__button btn">Contact Us</button>
+                    </div>
                 </div>
             </div>
         </div>
