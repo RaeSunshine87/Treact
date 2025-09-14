@@ -1235,6 +1235,7 @@ footer {
     width: calc(100% - 40%);
   }
 }
+
 @media (max-width: 1024px) {
   .nav__links {
     display: none;
@@ -1456,6 +1457,7 @@ footer {
     margin-left: 0px;
   }
 }
+
 @media (max-width: 640px) {
   .section__title {
     line-height: 1.25;
@@ -1494,6 +1496,7 @@ footer {
     font-size: 14px;
     letter-spacing: 0.05em;
   }
+  
   .section__title {
     font-size: 30px;
   }
@@ -1608,7 +1611,7 @@ footer {
     text-align: center;
     align-items: center;
   }
-  
+
   .footer__copyright {
     font-size: 14px;
     text-align: center;
